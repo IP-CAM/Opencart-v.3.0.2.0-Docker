@@ -1,0 +1,43 @@
+version: '2'
+
+services:
+
+  php-fpm:
+    build: ./php-fpm
+    volumes_from:
+      - application
+    expose:
+      - "9000"
+
+  application:
+    image: tianon/true
+    volumes:
+      - ../upload:/var/www/
+
+  data:
+    build: ./data
+    volumes:
+      - ./database/mysql:/var/lib/mysql
+
+  apache:
+    build: ./apache
+    volumes_from:
+      - application
+    volumes:
+      - ./logs/apache:/var/log/apache2
+      - ./apache/sites:/etc/apache2/sites-available
+    ports:
+      - "80:80"
+    depends_on:
+      - php-fpm
+
+  mysql:
+    build: ./mysql
+    volumes_from:
+      - data
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}

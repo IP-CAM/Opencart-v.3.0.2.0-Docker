@@ -1,0 +1,276 @@
+2018-07-04 8:27:17 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/upload/system/library/db/mysqli.php on line 7
+2018-07-04 8:27:17 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:27:17 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:27:17 - PHP Notice:  Undefined variable: mysql in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:27:17 - PHP Notice:  Trying to get property of non-object in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:27:56 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/upload/system/library/db/mysqli.php on line 7
+2018-07-04 8:27:56 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:27:56 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:27:56 - PHP Notice:  Undefined variable: mysql in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:27:56 - PHP Notice:  Trying to get property of non-object in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:38:47 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/upload/system/library/db/mysqli.php on line 7
+2018-07-04 8:38:47 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:38:47 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/upload/system/library/db/mysqli.php on line 10
+2018-07-04 8:38:47 - PHP Notice:  Undefined variable: mysql in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:38:47 - PHP Notice:  Trying to get property of non-object in /var/www/html/upload/install/controller/install/step_3.php on line 280
+2018-07-04 8:43:30 - PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 8:43:30 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 8:43:30 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 8:43:30 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 8:43:30 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 8:43:38 - PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 8:43:38 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 8:43:38 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 8:43:38 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 8:43:38 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:08:59 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 9:08:59 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:08:59 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:08:59 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:08:59 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:09:12 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 9:09:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:09:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:09:12 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:09:12 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:15:50 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 9:15:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:15:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:15:50 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:15:50 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:15:57 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 9:15:57 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:15:57 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:15:57 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:15:57 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:19:31 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/html/system/library/db/mysqli.php on line 7
+2018-07-04 9:19:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:19:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/html/system/library/db/mysqli.php on line 10
+2018-07-04 9:19:31 - PHP Notice:  Undefined variable: mysql in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:19:31 - PHP Notice:  Trying to get property of non-object in /var/www/html/install/controller/install/step_3.php on line 280
+2018-07-04 9:36:58 - PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 9:36:58 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:36:58 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:36:58 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:36:58 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:42:39 - PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 9:42:39 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:42:39 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:42:39 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:42:39 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:42:54 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 9:42:54 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:42:54 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:42:54 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:42:54 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:53:51 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 9:53:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:53:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 9:53:51 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 9:53:51 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:00:13 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 10:00:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:00:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:00:13 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:00:13 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:02:13 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 10:02:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:02:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:02:13 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:02:13 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:03 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 10:04:03 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:03 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:03 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:03 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:14 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 10:04:14 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:14 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:14 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:14 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:22 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/upload/system/library/db/mysqli.php on line 7
+2018-07-04 10:04:22 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:22 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/upload/system/library/db/mysqli.php on line 10
+2018-07-04 10:04:22 - PHP Notice:  Undefined variable: mysql in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:04:22 - PHP Notice:  Trying to get property of non-object in /var/www/upload/install/controller/install/step_3.php on line 280
+2018-07-04 10:07:35 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:07:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:07:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:07:35 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:07:35 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:11:57 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:11:57 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:11:57 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:11:57 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:11:57 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:18:28 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:18:28 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:18:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:18:28 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:18:28 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:18:28 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:20:26 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:20:26 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:20:26 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:20:26 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:20:26 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:21:41 - PHP Warning:  mysqli::__construct(): (HY000/1130): Host '172.16.3.112' is not allowed to connect to this MySQL server in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:21:41 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:21:41 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:21:41 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:21:41 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:21:45 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection timed out in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:21:45 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:21:45 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:21:45 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:21:45 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:23:35 - PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'LAPTOP-SBLJCHFC' is not allowed to connect to this MySQL server in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:23:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:23:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:23:35 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:23:35 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:23:51 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:23:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:23:51 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:23:51 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:23:51 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:24:10 - PHP Warning:  Packets out of order. Expected 0 received 255. Packet size=0 in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:24:10 - PHP Warning:  mysqli::__construct(): MySQL server has gone away in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:24:10 - PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=6 in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:24:10 - PHP Warning:  mysqli::__construct(): (HY000/2006): MySQL server has gone away in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:24:10 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:24:10 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:24:10 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:24:10 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:24:19 - PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'LAPTOP-SBLJCHFC' is not allowed to connect to this MySQL server in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:24:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:24:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:24:19 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:24:19 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:25:02 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:25:02 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:25:02 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:25:02 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:25:02 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:25:02 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:40:32 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:40:32 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:40:32 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:40:32 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:40:32 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:40:46 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:40:46 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:40:46 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:40:46 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:40:46 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:41:05 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:41:05 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:41:05 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:41:05 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:41:05 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:41:25 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:41:25 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:41:25 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:41:25 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:41:25 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:42:16 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:42:16 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:42:16 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:42:16 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:42:16 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:42:59 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 10:42:59 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:42:59 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 10:42:59 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 10:42:59 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:11 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:01:11 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:11 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:11 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:11 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:24 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:01:24 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:24 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:24 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:24 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:50 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:01:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:50 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:01:50 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:01:50 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:19 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:25:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:19 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:19 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:19 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:35 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:25:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:35 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:35 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:35 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:37 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:25:37 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:37 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:25:37 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:25:37 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:26:01 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:26:01 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:26:01 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:26:01 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:26:01 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:27:29 - PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:27:29 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:27:29 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:27:29 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:27:29 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:29:12 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:29:12 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:29:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:29:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:29:12 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:29:12 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:29:12 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:29:12 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:29:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:29:12 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:29:12 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:29:12 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:36:14 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:36:14 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 11:36:14 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:36:14 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 11:36:14 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 11:36:14 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 12:00:03 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 12:00:03 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 12:00:03 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 12:00:03 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 12:00:03 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 12:00:03 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:29:16 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:29:16 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:29:16 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:29:16 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:29:16 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:29:16 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:29:37 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:29:37 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:29:37 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:29:37 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:29:37 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:29:37 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:31:13 - PHP Warning:  mysqli::__construct(): The server requested authentication method unknown to the client [caching_sha2_password] in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:31:13 - PHP Warning:  mysqli::__construct(): (HY000/2054): The server requested authentication method unknown to the client in /var/www/system/library/db/mysqli.php on line 7
+2018-07-04 17:31:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:31:13 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-04 17:31:13 - PHP Notice:  Undefined variable: mysql in /var/www/install/controller/install/step_3.php on line 280
+2018-07-04 17:31:13 - PHP Notice:  Trying to get property of non-object in /var/www/install/controller/install/step_3.php on line 280
+2018-07-05 7:59:31 - PHP Warning:  mysqli::__construct(): (HY000/2002): No route to host in /var/www/system/library/db/mysqli.php on line 7
+2018-07-05 7:59:31 - PHP Warning:  mysqli::__construct(): (HY000/2002): No route to host in /var/www/system/library/db/mysqli.php on line 7
+2018-07-05 7:59:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-05 7:59:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-05 7:59:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-05 7:59:31 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-05 7:59:48 - PHP Warning:  mysqli::__construct(): (HY000/2002): No route to host in /var/www/system/library/db/mysqli.php on line 7
+2018-07-05 7:59:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
+2018-07-05 7:59:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /var/www/system/library/db/mysqli.php on line 10
