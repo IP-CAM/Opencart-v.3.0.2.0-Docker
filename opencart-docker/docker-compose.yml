@@ -27,7 +27,7 @@ services:
       - ./logs/apache:/var/log/apache2
       - ./apache/sites:/etc/apache2/sites-available
     ports:
-      - "80:80"
+      - "8080:80"
     depends_on:
       - php-fpm
 

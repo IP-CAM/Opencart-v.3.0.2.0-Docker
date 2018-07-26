@@ -1,17 +1,17 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://192.168.99.100/admin/');
-define('HTTP_CATALOG', 'http://192.168.99.100/');
+define('HTTP_SERVER', 'http://exp1.slat.org:8080/admin/');
+define('HTTP_CATALOG', 'http://exp1.slat.org:8080/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://192.168.99.100/admin/');
-define('HTTPS_CATALOG', 'http://192.168.99.100/');
+define('HTTPS_SERVER', 'http://exp1.slat.org:8080/admin/');
+define('HTTPS_CATALOG', 'http://exp1.slat.org:8080/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/admin/');
 define('DIR_SYSTEM', '/var/www/system/');
 define('DIR_IMAGE', '/var/www/image/');
-define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
+define('DIR_STORAGE', '/var/www/storage/');
 define('DIR_CATALOG', '/var/www/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
