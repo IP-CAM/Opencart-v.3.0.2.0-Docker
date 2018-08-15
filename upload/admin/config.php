@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://exp1.slat.org:8080/admin/');
-define('HTTP_CATALOG', 'http://exp1.slat.org:8080/');
+define('HTTP_SERVER', 'http://ec-store.slat.org:8080/admin/');
+define('HTTP_CATALOG', 'http://ec-store.slat.org:8080/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://exp1.slat.org:8080/admin/');
-define('HTTPS_CATALOG', 'http://exp1.slat.org:8080/');
+define('HTTPS_SERVER', 'https://ec-store.slat.org:8080/admin/');
+define('HTTPS_CATALOG', 'https://ec-store.slat.org:8080/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/admin/');

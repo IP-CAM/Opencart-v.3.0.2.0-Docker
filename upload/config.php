@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://exp1.slat.org:8080/');
+define('HTTP_SERVER', 'https://ec-store.slat.org:8080/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://exp1.slat.org:8080/');
+define('HTTPS_SERVER', 'https://ec-store.slat.org:8080/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/catalog/');
