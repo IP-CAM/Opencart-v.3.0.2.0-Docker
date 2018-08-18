@@ -1,5 +1,5 @@
 <?php
-class ControllerShippingflat2 extends Controller {
+class ControllerExtensionShippingflat2 extends Controller {
 	private $error = array(); 
 	
 	public function index() {   
@@ -10,7 +10,7 @@ class ControllerShippingflat2 extends Controller {
 		$this->load->model('setting/setting');
 				
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
-			$this->model_setting_setting->editSetting('flat2', $this->request->post);		
+			$this->model_setting_setting->editSetting('shipping_flat2', $this->request->post);		
 					
 			$this->session->data['success'] = $this->language->get('text_success');
 						
@@ -59,9 +59,9 @@ class ControllerShippingflat2 extends Controller {
       		//'separator' => ' :: '
    		);
 		
-		$data['action'] = $this->url->link('extension/shipping/flat2', 'user_token=' . $this->session->data['token'], true);
+		$data['action'] = $this->url->link('extension/shipping/flat2', 'user_token=' . $this->session->data['user_token'], true);
 		
-		$data['cancel'] = $this->url->link('extension/shipping', 'user_token=' . $this->session->data['token'], true);
+		$data['cancel'] = $this->url->link('extension/shipping', 'user_token=' . $this->session->data['user_token'] . '&type=shipping', true);
 		
 		if (isset($this->request->post['shipping_flat2_cost'])) {
 			$data['shipping_flat2_cost'] = $this->request->post['shipping_flat2_cost'];
@@ -96,9 +96,9 @@ class ControllerShippingflat2 extends Controller {
 		}
 		
 		if (isset($this->request->post['shipping_flat2_sort_order'])) {
-			$this->data['shipping_flat2_sort_order'] = $this->request->post['shipping_flat2_sort_order'];
+			$data['shipping_flat2_sort_order'] = $this->request->post['shipping_flat2_sort_order'];
 		} else {
-			$this->data['shipping_flat2_sort_order'] = $this->config->get('shipping_flat2_sort_order');
+			$data['shipping_flat2_sort_order'] = $this->config->get('shipping_flat2_sort_order');
 		}				
 
         $data['header'] = $this->load->controller('common/header');
@@ -109,15 +109,11 @@ class ControllerShippingflat2 extends Controller {
 	}
 	
 	private function validate() {
-		if (!$this->user->hasPermission('modify', 'shipping/flat2')) {
+		if (!$this->user->hasPermission('modify', 'extension/shipping/flat2')) {
 			$this->error['warning'] = $this->language->get('error_permission');
 		}
 		
-		if (!$this->error) {
-			return true;
-		} else {
-			return false;
-		}	
+		return !$this->error;
 	}
 }
 ?>

@@ -28,7 +28,7 @@ $_['text_address_new']               = '新增一個新地址';
 $_['text_address_existing']          = '使用現有地址';
 $_['text_shipping_method']           = '請選擇一個運送方式。';
 $_['text_payment_method']            = '請選擇一個支付方式。';
-$_['text_comments']                  = '新增訂單備註';
+$_['text_comments']                  = '新增訂單備註(若選擇超商取貨付款請至<a target="_blank" href="http://CVS.map.com.tw">http://CVS.map.com.tw</a> 選一間超商並輸入超商代碼)';
 $_['text_recurring_item']            = '定期付款商品';
 $_['text_payment_recurring']         = '定期付款方式';
 $_['text_trial_description']         = '%s 每 %d %s 給 %d 付款後';

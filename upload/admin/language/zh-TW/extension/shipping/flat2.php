@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title']    = '7-11超商取貨';
+$_['heading_title']    = '超商取貨';
 
 // Text
 $_['text_extension']   = '擴充功能';
 $_['text_shipping']    = '編輯配送(Shipping)模組';
-$_['text_success']     = '成功：您已修改7-11的設置';
+$_['text_success']     = '成功：您已修改超商取貨的設置';
 
 // Entry
 $_['entry_cost']       = '運費(Cost)';
