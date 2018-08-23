@@ -58,7 +58,8 @@ class ControllerCheckoutShippingMethod extends Controller {
 		}
 
 		if (isset($this->session->data['comment'])) {
-			$data['comment'] = $this->session->data['comment'];
+			//$data['comment'] = $this->session->data['comment'];
+			print_r($_REQUEST);
 		} else {
 			$data['comment'] = '';
 		}
