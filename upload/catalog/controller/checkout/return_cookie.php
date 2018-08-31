@@ -4,7 +4,7 @@ class ControllerCheckoutReturnCookie extends Controller {
         $cookie['route']  = @$_COOKIE["route"];
         $cookie['name']  = @$_COOKIE["name"];
         $cookie['address']  = @$_COOKIE["address"];
-
-        return $cookie;
+	
+        print_r( json_encode($cookie));
 	}	
 }

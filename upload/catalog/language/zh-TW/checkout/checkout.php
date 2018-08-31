@@ -91,3 +91,4 @@ $_['error_no_shipping']              = '警告：無可使用的運送方式，�
 $_['error_payment']                  = '警告：請選擇一個支付方式！';
 $_['error_no_payment']               = '警告：無可使用的支付方式，請<a href="%s">連絡我們</a>！';
 $_['error_custom_field']             = '%s 必須填寫!';
+$_['error_comment']                  = '警告：請選擇超商(若選擇宅配請在備註填無)！';

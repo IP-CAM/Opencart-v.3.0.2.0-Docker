@@ -57,6 +57,13 @@ class ControllerCheckoutShippingMethod extends Controller {
 			$data['code'] = '';
 		}
 
+		if (empty($this->session->data['comment'])) {
+			$data['error_warning'] = $this->language->get('error_comment');
+		} else {
+			$data['error_warning'] = '';
+		}
+
+
 		if (isset($this->session->data['comment'])) {
 			$data['comment'] = $this->session->data['comment'];
 		} else {
@@ -113,6 +120,10 @@ class ControllerCheckoutShippingMethod extends Controller {
 			if (!isset($shipping[0]) || !isset($shipping[1]) || !isset($this->session->data['shipping_methods'][$shipping[0]]['quote'][$shipping[1]])) {
 				$json['error']['warning'] = $this->language->get('error_shipping');
 			}
+		}
+
+		if (($this->request->post['comment']==NULL)) {
+			$json['error']['warning'] = $this->language->get('error_comment');
 		}
 
 		if (!$json) {
