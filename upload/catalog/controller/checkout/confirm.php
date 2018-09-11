@@ -14,20 +14,10 @@ class ControllerCheckoutConfirm extends Controller {
 				$redirect = $this->url->link('checkout/checkout', '', true);
 			}
 
-			// Validate if shipping store has been set.
-			if (!isset($this->session->data['comment'])) {
-				$redirect = $this->url->link('checkout/checkout', '', true);
-			}
-
 		} else {
 			unset($this->session->data['shipping_address']);
 			unset($this->session->data['shipping_method']);
 			unset($this->session->data['shipping_methods']);
-		}
-
-		// Validate if shipping store has been set.
-	        if (!isset($this->session->data['comment'])) {
-			$redirect = $this->url->link('checkout/checkout', '', true); 
 		}
   
 		// Validate if payment address has been set.
