@@ -260,7 +260,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
         <div class=\"panel-body\">
           <form method=\"post\" action=\"\" enctype=\"multipart/form-data\" id=\"form-order\">
             <div class=\"table-responsive\">
-              <table class=\"table table-bordered table-hover\">
+              <table class=\"table table-bordered table-hover\" id = \"status\">
                 <thead>
                   <tr>
                     <td style=\"width: 1px;\" class=\"text-center\"><input type=\"checkbox\" onclick=\"\$('input[name*=\\'selected\\']').prop('checked', this.checked);\" /></td>
@@ -379,7 +379,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
                   </tr>
                 </thead>
                 <tbody>
-                
+              
                 ";
         // line 120
         if ((isset($context["orders"]) ? $context["orders"] : null)) {
@@ -388,8 +388,8 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable((isset($context["orders"]) ? $context["orders"] : null));
             foreach ($context['_seq'] as $context["_key"] => $context["order"]) {
-                // line 122
-                echo "                <tr>
+                echo " 
+                <tr class=\"datarow\">
                   <td class=\"text-center\"> ";
                 // line 123
                 if (twig_in_filter($this->getAttribute($context["order"], "order_id", array()), (isset($context["selected"]) ? $context["selected"] : null))) {
@@ -457,25 +457,43 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
                         </ul>
                       </div>
                     </div></td>
-                </tr>
+                </tr>  
                 ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['order'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 146
-            echo "                ";
+            echo "                <script>
+                var filter = \$('select[name=\\'filter_order_status_id\\']').val();
+                var table = document.getElementById(\"status\");
+                if(!filter){ 
+                   \$(\"tr.datarow\").each(function(){
+                     var hide = true;
+                     \$(\"td.text-left\",this).each(function(){
+                       if(\$(this).text()==\"確認收貨\"){
+                         hide = false;
+                       }
+                     });
+                     \$(this).toggle(hide);
+                   });                  
+                }
+                
+               /* for(var i = 1;i < 18;i++){
+                 console.log(table.rows[i].cells[3].innerHTML);}*/
+                </script>
+                ";
         } else {
-            // line 147
+            // line 165
             echo "                <tr>
                   <td class=\"text-center\" colspan=\"8\">";
-            // line 148
+            // line 166
             echo (isset($context["text_no_results"]) ? $context["text_no_results"] : null);
             echo "</td>
                 </tr>
                 ";
         }
-        // line 151
+        // line 169
         echo "                  </tbody>
                 
               </table>
@@ -483,11 +501,11 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
           </form>
           <div class=\"row\">
             <div class=\"col-sm-6 text-left\">";
-        // line 157
+        // line 175
         echo (isset($context["pagination"]) ? $context["pagination"] : null);
         echo "</div>
             <div class=\"col-sm-6 text-right\">";
-        // line 158
+        // line 176
         echo (isset($context["results"]) ? $context["results"] : null);
         echo "</div>
           </div>
@@ -536,7 +554,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 \t}
 
 \tlocation = 'index.php?route=sale/order&user_token=";
-        // line 204
+        // line 222
         echo (isset($context["user_token"]) ? $context["user_token"] : null);
         echo "' + url;
 });
@@ -546,7 +564,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 \t'source': function(request, response) {
 \t\t\$.ajax({
 \t\t\turl: 'index.php?route=customer/customer/autocomplete&user_token=";
-        // line 211
+        // line 229
         echo (isset($context["user_token"]) ? $context["user_token"] : null);
         echo "&filter_name=' +  encodeURIComponent(request),
 \t\t\tdataType: 'json',
@@ -599,12 +617,12 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 \tvar element = this;
 \t
 \tif (confirm('";
-        // line 261
+        // line 279
         echo (isset($context["text_confirm"]) ? $context["text_confirm"] : null);
         echo "')) {
 \t\t\$.ajax({
 \t\t\turl: '";
-        // line 263
+        // line 281
         echo (isset($context["catalog"]) ? $context["catalog"] : null);
         echo "index.php?route=api/order/delete&api_token=";
         echo (isset($context["api_token"]) ? $context["api_token"] : null);
@@ -627,7 +645,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 \t
 \t\t\t\tif (json['success']) {
 \t\t\t\t\tlocation = '";
-        // line 279
+        // line 297
         echo (isset($context["delete"]) ? $context["delete"] : null);
         echo "';
 \t\t\t\t}
@@ -644,16 +662,17 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
   <script type=\"text/javascript\"><!--
 \$('.date').datetimepicker({
 \tlanguage: '";
-        // line 293
+        // line 311
         echo (isset($context["datepicker"]) ? $context["datepicker"] : null);
         echo "',
 \tpickTime: false
 });
 //--></script></div>
 ";
-        // line 297
+        // line 315
         echo (isset($context["footer"]) ? $context["footer"] : null);
-        echo " ";
+        echo " 
+";
     }
 
     public function getTemplateName()
@@ -668,7 +687,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 
     public function getDebugInfo()
     {
-        return array (  655 => 297,  648 => 293,  631 => 279,  608 => 263,  603 => 261,  550 => 211,  540 => 204,  491 => 158,  487 => 157,  479 => 151,  473 => 148,  470 => 147,  467 => 146,  453 => 140,  447 => 139,  439 => 136,  434 => 134,  430 => 133,  426 => 132,  422 => 131,  418 => 130,  414 => 129,  409 => 128,  403 => 126,  397 => 124,  395 => 123,  392 => 122,  387 => 121,  385 => 120,  377 => 115,  359 => 114,  341 => 113,  323 => 112,  305 => 111,  287 => 110,  269 => 109,  257 => 100,  246 => 92,  235 => 86,  230 => 84,  219 => 78,  214 => 76,  206 => 73,  202 => 72,  196 => 68,  190 => 67,  182 => 64,  179 => 63,  171 => 60,  168 => 59,  165 => 58,  160 => 57,  154 => 54,  151 => 53,  145 => 50,  142 => 49,  140 => 48,  133 => 44,  125 => 41,  121 => 40,  113 => 37,  109 => 36,  102 => 32,  96 => 28,  88 => 24,  85 => 23,  77 => 19,  75 => 18,  70 => 15,  59 => 13,  55 => 12,  50 => 10,  44 => 9,  38 => 8,  32 => 7,  28 => 6,  19 => 1,);
+        return array (  673 => 315,  666 => 311,  649 => 297,  626 => 281,  621 => 279,  568 => 229,  558 => 222,  509 => 176,  505 => 175,  497 => 169,  491 => 166,  488 => 165,  467 => 146,  453 => 140,  447 => 139,  439 => 136,  434 => 134,  430 => 133,  426 => 132,  422 => 131,  418 => 130,  414 => 129,  409 => 128,  403 => 126,  397 => 124,  395 => 123,  387 => 121,  385 => 120,  377 => 115,  359 => 114,  341 => 113,  323 => 112,  305 => 111,  287 => 110,  269 => 109,  257 => 100,  246 => 92,  235 => 86,  230 => 84,  219 => 78,  214 => 76,  206 => 73,  202 => 72,  196 => 68,  190 => 67,  182 => 64,  179 => 63,  171 => 60,  168 => 59,  165 => 58,  160 => 57,  154 => 54,  151 => 53,  145 => 50,  142 => 49,  140 => 48,  133 => 44,  125 => 41,  121 => 40,  113 => 37,  109 => 36,  102 => 32,  96 => 28,  88 => 24,  85 => 23,  77 => 19,  75 => 18,  70 => 15,  59 => 13,  55 => 12,  50 => 10,  44 => 9,  38 => 8,  32 => 7,  28 => 6,  19 => 1,);
     }
 }
 /* {{ header }}{{ column_left }}*/
@@ -775,7 +794,7 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 /*         <div class="panel-body">*/
 /*           <form method="post" action="" enctype="multipart/form-data" id="form-order">*/
 /*             <div class="table-responsive">*/
-/*               <table class="table table-bordered table-hover">*/
+/*               <table class="table table-bordered table-hover" id = "status">*/
 /*                 <thead>*/
 /*                   <tr>*/
 /*                     <td style="width: 1px;" class="text-center"><input type="checkbox" onclick="$('input[name*=\'selected\']').prop('checked', this.checked);" /></td>*/
@@ -789,10 +808,10 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 /*                   </tr>*/
 /*                 </thead>*/
 /*                 <tbody>*/
-/*                 */
+/*               */
 /*                 {% if orders %}*/
-/*                 {% for order in orders %}*/
-/*                 <tr>*/
+/*                 {% for order in orders %} */
+/*                 <tr class="datarow">*/
 /*                   <td class="text-center"> {% if order.order_id in selected %}*/
 /*                     <input type="checkbox" name="selected[]" value="{{ order.order_id }}" checked="checked" />*/
 /*                     {% else %}*/
@@ -814,8 +833,26 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 /*                         </ul>*/
 /*                       </div>*/
 /*                     </div></td>*/
-/*                 </tr>*/
+/*                 </tr>  */
 /*                 {% endfor %}*/
+/*                 <script>*/
+/*                 var filter = $('select[name=\'filter_order_status_id\']').val();*/
+/*                 var table = document.getElementById("status");*/
+/*                 if(!filter){ */
+/*                    $("tr.datarow").each(function(){*/
+/*                      var hide = true;*/
+/*                      $("td.text-left",this).each(function(){*/
+/*                        if($(this).text()=="確認收貨"){*/
+/*                          hide = false;*/
+/*                        }*/
+/*                      });*/
+/*                      $(this).toggle(hide);*/
+/*                    });                  */
+/*                 }*/
+/*                 */
+/*                /* for(var i = 1;i < 18;i++){*/
+/*                  console.log(table.rows[i].cells[3].innerHTML);}*//* */
+/*                 </script>*/
 /*                 {% else %}*/
 /*                 <tr>*/
 /*                   <td class="text-center" colspan="8">{{ text_no_results }}</td>*/
@@ -968,3 +1005,4 @@ class __TwigTemplate_c7d1ee5c66acbe665295f8ef12d0d6ded3ea463f80541591d368f8ce4ab
 /* });*/
 /* //--></script></div>*/
 /* {{ footer }} */
+/* */

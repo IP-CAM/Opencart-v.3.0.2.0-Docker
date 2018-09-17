@@ -24,29 +24,36 @@
 	{% endfor %}
 	</div>
 {% endif %}
-<div class="section">
 <script>
-function update(){
-    $.ajax({
-            url: index.php?route=checkout/return_cookie,
-            type:'POST',
-            success: function (result) {
-               console.log(cookie);
-			   clearInterval(intervalId); 
-            }
-        })
-	}
-	$(function(){
-		setInterval('update()', 5000);  
-});
+  function update(){
+      $.ajax({
+              url: 'index.php?route=checkout/return_cookie',
+              type:'POST',
+              success: function (res) {
+   				var store = JSON.parse(res);
+   				if(store['address']){
+   					document.getElementById("store").value = "超商代碼:"+store.route+"  |店名:"+store.name+"  |地址:"+store.address;
+   					clearInterval(id); 
+   				}
+              },
+              error: function (res) {
+                 console.log('wrong'); 
+              }
+       });
+  }
+     
+var id = setInterval('update()', 1000);  
 </script>
-	<strong>{{ text_comment }}</strong>
+<p><a target="_blank" onclick="setInterval('update()', 1000)"href="http://cvs.map.com.tw/paracvs.asp?cvsname=www.ec-order.com.tw&cvsid=AAABBB&cvstemp=https%3A%2F%2Fec-store.slat.org%3A8080%2Findex.php%3Froute%3Dcheckout%2Fselect_store">選取超商</a></p>
+<div class="section">
+	<strong>{{ text_comments }}</strong>
 	<div class="input-field">
 		<i class="material-icons prefix">message</i>
-		<textarea name="comment" class="materialize-textarea"></textarea>
+		<textarea id="store"name="comment" class="materialize-textarea" required></textarea>
 	</div>
 </div>
 <div class="flex-reverse">
-	<button type="button" value="{{ button_continue }}" id="button-shipping-method" class="btn waves-effect waves-light red">{{ button_continue }}</button>
+	<button onclick="ap()" type="button" value="{{ button_continue }}" id="button-shipping-method" class="btn waves-effect waves-light red">{{ button_continue }}</button>
 </div>
 <script>{% if error_warning %}M.toast({html: '<i class="material-icons left">warning</i>{{ error_warning }}', classes: 'toast-warning'});{% endif %}</script>
+
