@@ -460,3 +460,12 @@
 2018-09-13 9:23:12 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1536834191): No such file or directory in /var/www/system/library/cache/file.php on line 68
 2018-09-13 9:23:12 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
 2018-09-13 9:23:12 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-09-30 12:38:34 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1538314713): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-09-30 12:38:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-09-30 12:38:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-09-30 12:38:39 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1538314718): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-09-30 12:38:39 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-09-30 12:38:39 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-01 9:31:24 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1538389883): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-01 9:31:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-01 9:31:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
