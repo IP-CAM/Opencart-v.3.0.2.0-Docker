@@ -469,3 +469,45 @@
 2018-10-01 9:31:24 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1538389883): No such file or directory in /var/www/system/library/cache/file.php on line 68
 2018-10-01 9:31:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
 2018-10-01 9:31:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:53:48 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539323628): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-12 4:53:48 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-12 4:53:48 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:53:58 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539323637): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-12 4:53:58 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-12 4:53:58 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:53:59 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539323638): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-12 4:53:59 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-12 4:53:59 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:54:02 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539323641): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-12 4:54:02 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-12 4:54:02 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:54:04 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539323643): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-12 4:54:04 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-12 4:54:04 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-12 4:54:15 - PHP Notice:  Undefined index: order_id in /var/www/catalog/controller/extension/payment/cod.php on line 13
+2018-10-12 4:54:31 - PHP Notice:  Undefined index: order_id in /var/www/catalog/controller/extension/payment/cod.php on line 13
+2018-10-12 4:54:41 - PHP Notice:  Undefined index: order_id in /var/www/catalog/controller/extension/payment/cod.php on line 13
+2018-10-13 8:21:46 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539422506): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-13 8:21:46 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-13 8:21:46 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:45:34 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481533): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:45:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:45:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:45:53 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481552): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:45:53 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:45:53 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:46:02 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481561): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:46:02 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:46:02 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:46:13 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481572): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:46:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:46:13 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:46:16 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481575): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:46:16 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:46:16 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:46:24 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481583): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:46:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:46:24 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
+2018-10-14 0:46:34 - PHP Warning:  unlink(/var/www/storage/cache/cache.catalog.language.1539481593): No such file or directory in /var/www/system/library/cache/file.php on line 68
+2018-10-14 0:46:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 99
+2018-10-14 0:46:34 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/system/framework.php:42) in /var/www/catalog/controller/startup/startup.php on line 157
